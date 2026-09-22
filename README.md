@@ -5,6 +5,13 @@
 ## Summary
 Scheduled for the close of business each quarter, this automated report delivers key statistics for California and Santa Clara County park passes.
 
+## Features and Deliverables
+
+**Automated Email:**
+
+<img width="738" height="611" alt="Quarterly Park Pass Email" src="https://github.com/user-attachments/assets/a2857308-072f-4ace-b6f0-3d32bca36143" />
+
+
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
 
