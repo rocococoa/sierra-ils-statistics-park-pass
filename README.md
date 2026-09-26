@@ -11,6 +11,14 @@ Scheduled for the close of business each quarter, this automated report delivers
 
 <img width="738" height="611" alt="Quarterly Park Pass Email" src="https://github.com/user-attachments/assets/a2857308-072f-4ace-b6f0-3d32bca36143" />
 
+**Attached Excel Report:**
+
+<img width="852" height="335" alt="Park-Pass-Stats" src="https://github.com/user-attachments/assets/e7236d11-6999-476a-9eb5-9b8c4c72478a" />
+
+**Park Pass YTD Circ Stats Tracker:**
+
+<img width="1536" height="590" alt="Park-Pass-Tracker" src="https://github.com/user-attachments/assets/07b8ea15-2af2-4698-83d0-2e6f4bd108db" />
+
 
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
