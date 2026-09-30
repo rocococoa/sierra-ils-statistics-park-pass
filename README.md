@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## Summary
-Scheduled for the close of business each quarter, this automated report delivers key statistics for California and Santa Clara County park passes.
+**What it does:** Scheduled for the close of business each quarter, this automated report provides key statistics for California park passes.
+
+**Impact:** Automatically delivers the key data required for state reporting, streamlining the entire information-gathering process.
 
 ## Features and Deliverables
 
@@ -13,12 +15,13 @@ Scheduled for the close of business each quarter, this automated report delivers
 
 **Attached Excel Report:**
 
-<img width="852" height="335" alt="Park-Pass-Stats" src="https://github.com/user-attachments/assets/e7236d11-6999-476a-9eb5-9b8c4c72478a" />
+<img width="855" height="332" alt="Park-Pass-Stats" src="https://github.com/user-attachments/assets/42f0216e-8883-4437-99f1-2e6f21bb5d41" />
+
+Most of the data - including the number items by location and total holds - is already structured for state reporting. Quarterly circulation metrics are calculated by adding the raw data into the Park Pass YTD Circ Stats Tracker.
 
 **Park Pass YTD Circ Stats Tracker:**
 
 <img width="1536" height="590" alt="Park-Pass-Tracker" src="https://github.com/user-attachments/assets/07b8ea15-2af2-4698-83d0-2e6f4bd108db" />
-
 
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
